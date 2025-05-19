@@ -1,1 +1,94 @@
-<!DOCTYPE html><html><head><title>GanaFácilWeb</title></head><body><h1>Bienvenido a GanaFácilWeb</h1></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GanaFácilWeb</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .video-section {
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .video-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .video-card:hover {
+      transform: translateY(-5px);
+    }
+    .video-card iframe {
+      width: 100%;
+      height: 200px;
+    }
+    .video-title {
+      padding: 0.5rem;
+      font-weight: bold;
+    }
+    .ads {
+      background: #e0e0e0;
+      text-align: center;
+      padding: 1rem;
+      margin: 1rem;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GanaFácilWeb</h1>
+    <p>Videos que te enseñan a ganar dinero online</p>
+  </header>
+
+  <div class="ads">Espacio para Publicidad (AdSense o banners)</div>
+
+  <section class="video-section">
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/4H0-fdZzqoQ" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Gana dinero con inteligencia artificial (video legal)</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Trucos para ingresos pasivos en 2025</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/qnN8U6J2eN8" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">Apps que pagan por usar tu teléfono</div>
+    </div>
+  </section>
+
+  <div class="ads">Publicidad viral aquí</div>
+
+  <footer>
+    Síguenos en redes - GanaFácilWeb © 2025
+  </footer>
+</body>
+</html>
